@@ -26,6 +26,34 @@ export const engUnits = {
   large: ['large', 'Large'],
 } as { [key: string]: string[] };
 
+export const finUnits = {
+  bag: ['pussi', 'pussia'],
+  box: ['rasia', 'rasiaa'],
+  can: ['tölkki', 'tölkkiä'],
+  cup: ['kuppi','c', 'c.', 'C', 'kuppia'],
+  clove: ['neilikkaa'],
+  gallon: ['gallona','gal'],
+  ounce: ['unssi','oz', 'oz.'],
+  pint: ['pint','pt', 'pts', 'pt.'],
+  pound: ["pauna", "lb", "lb.", "lbs", "lbs", "Lb", "Lbs"],
+  quart: ['quart','qt', 'qt.', 'qts', 'qts.'],
+  tablespoon: ['rkl', 'rkl', 'ruokalusikkaa', 'ruokalusikka'],
+  teaspoon: ['tl', 'teelusikka', 'teelusikkaa'],
+  gram: ['gramma','g', 'g.'],
+  kilogram: ['kilogramma', 'kg', 'kg.', 'Kg', 'Kg.'],
+  liter: ['litra', 'l', 'l.', 'lt', 'Lt', 'LT', 'L', 'L.'],
+  milligram: ['milligramma','mg', 'mg.'],
+  milliliter: ['millilitra','ml', 'ml.', 'mL', 'mL.'],
+  package: ['paketti','pkt'],
+  stick: ['tanko','tankoa'],
+  piece: ['kpl'],
+  pinch: ['ripaus'],
+  small: ['pieni'],
+  slice: ['viipale'],
+  medium: ['keskikokoinen'],
+  large: ['suuri', 'suuri'],
+} as { [key: string]: string[] }
+
 export const engPluralUnits = {
   cup: 'cups',
   gallon: 'gallons',
@@ -47,6 +75,29 @@ export const engPluralUnits = {
   can: 'cans',
   slice: 'slices',
   piece: 'pieces'
+} as { [key: string]: string };
+
+export const finPluralUnits = {
+  cup: 'kuppia',
+  gallon: 'gallonaa',
+  ounce: 'unssia',
+  pint: 'pints',
+  pound: 'paunaa',
+  quart: 'quarts',
+  tablespoon: 'ruokalusikkaa',
+  teaspoon: 'teelusikkaa',
+  gram: 'grammaa',
+  kilogram: 'kilogrammaa',
+  liter: 'litraa',
+  milligram: 'milligrammaa',
+  milliliter: 'millilitraa',
+  clove: 'kynttä',
+  bag: 'pussia',
+  box: 'rasiaa',
+  pinch: 'ripausta',
+  can: 'tölkkiä',
+  slice: 'viipaletta',
+  piece: 'kappaletta'
 } as { [key: string]: string };
 
 export const engNameToSymbol= {
@@ -72,7 +123,32 @@ export const engNameToSymbol= {
   piece: ''
 } as { [key: string]: string };
 
+export const finNameToSymbol= {
+  cup: 'c',
+  gallon: 'gal',
+  ounce: 'oz',
+  pint: 'pt',
+  pound: 'lb',
+  quart: 'qt',
+  tablespoon: 'tbs',
+  teaspoon: 'tsp',
+  gram: 'g',
+  kilogram: 'kg',
+  liter: 'lt',
+  milligram: 'mg',
+  milliliter: 'ml',
+  clove: '',
+  bag: '',
+  box: '',
+  pinch: '',
+  can: '',
+  slice: '',
+  piece: ''
+} as { [key: string]: string };
+
 export const engPreposition = ['of'];
+
+export const finPreposition = [''];
 
 
 export const itaUnits = {
@@ -194,4 +270,6 @@ export const itaPreposition = ['di','d\''];
 export const  unitsMap = new Map();
 unitsMap.set("eng",[engUnits,  engPluralUnits, engPreposition, engNameToSymbol]);
 unitsMap.set("ita",[itaUnits,  itaPluralUnits, itaPreposition, itaNameToSymbol]);
+unitsMap.set("fin",[finUnits,  finPluralUnits, finPreposition, finNameToSymbol]);
+
 

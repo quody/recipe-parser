@@ -93,11 +93,53 @@ export const engSmall: { [key: string]: number } = {
     'milliardo': 1000000000,
     'trilliardo': 1000000000000,
   };
+
+  export const finSmall: { [key: string]: number } = {
+    'nolla': 0,
+    'yksi': 1,
+    'kaksi': 2,
+    'kolme': 3,
+    'neljä': 4,
+    'viisi': 5,
+    'kuusi': 6,
+    'seitsemän': 7,
+    'kahdeksan': 8,
+    'yhdeksän': 9,
+    'kymmenen': 10,
+    'yksitoista': 11,
+    'kaksitoista': 12,
+    'kolmetoista': 13,
+    'neljätoista': 14,
+    'viisitoista': 15,
+    'kuusitoista': 16,
+    'seitsemäntoista': 17,
+    'kahdeksantoista': 18,
+    'yhdeksäntoista': 19,
+    'kaksikymmentä': 20,
+    'kolmekymmentä': 30,
+    'neljäkymmentä': 40,
+    'viisikymmentä': 50,
+    'kuusikymmentä': 60,
+    'seitsemänkymmentä': 70,
+    'kahdeksankymmentä': 80,
+    'yhdeksänkymmentä': 90
+  };
+  
+  export const finMagnitude: { [key: string]: number } = {
+    'sata':      100,
+    'tuhat':     1000,
+    'miljoona':      1000000,
+    'miljardi':      1000000000,
+    'biljoona':     1000000000000,
+  };
+
   export const toTasteMap: {[key:string]: string } = {
     'eng': 'to taste',
     'ita': 'quanto basta',
+    'fin': 'oman maun mukaan'
   };
 export const  numbersMap = new Map();
-numbersMap.set("eng",[engSmall,  engMagnitude]);
-numbersMap.set("ita",[itaSmall,  itaMagnitude]);
+numbersMap.set('eng',[engSmall,  engMagnitude]);
+numbersMap.set('ita',[itaSmall,  itaMagnitude]);
+numbersMap.set('fin',[finSmall,  finMagnitude]);
 

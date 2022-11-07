@@ -39,7 +39,7 @@ export const finUnits = {
   ruokalusikka: ['rkl', 'ruokalusikkaa', 'ruokalusikka'],
   teelusikka: ['tl', 'teelusikka', 'teelusikkaa'],
   gramma: ['gramma','g', 'g.'],
-  kilogramma: ['kilogramma', 'kg', 'kg.', 'Kg', 'Kg.'],
+  kilogramma: ['kilogramma', 'kg', 'kg.', 'Kg', 'Kg.', 'kilo', 'kiloa'],
   litra: ['litra', 'l', 'l.', 'lt', 'Lt', 'LT', 'L', 'L.'],
   milligramma: ['milligramma','mg', 'mg.'],
   millilitra: ['millilitra','ml', 'ml.', 'mL', 'mL.'],

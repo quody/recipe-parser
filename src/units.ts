@@ -139,7 +139,7 @@ export const finNameToSymbol= {
   ruokalusikka: 'rkl',
   teelusikka: 'tl',
   gramma: 'g',
-  kilogram: 'kg',
+  kilogramma: 'kg',
   litra: 'l',
   milligramma: 'mg',
   millilitra: 'ml',

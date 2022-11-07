@@ -135,7 +135,7 @@ export const finNameToSymbol= {
   teelusikka: 'tl',
   gramma: 'g',
   kilogram: 'kg',
-  litra: 'lt',
+  litra: 'l',
   milligramma: 'mg',
   millilitra: 'ml',
   desilitra: 'dl',

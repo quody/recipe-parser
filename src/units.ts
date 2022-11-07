@@ -44,7 +44,8 @@ export const finUnits = {
   milligramma: ['milligramma','mg', 'mg.'],
   millilitra: ['millilitra','ml', 'ml.', 'mL', 'mL.'],
   desilitra: ['desilitra', 'desilitraa', 'dl'],
-  paketti: ['paketti','pkt'],
+  paketti: ['paketti','pkt', 'pakettia'],
+  purkki: ['purkki', 'purkkia', 'prk'],
   tanko: ['tanko','tankoa'],
   kappale: ['kpl', 'kappale', 'kappaletta'],
   pala: ['pala', 'palaa'],
@@ -100,7 +101,8 @@ export const finPluralUnits = {
   ripaus: 'ripausta',
   tölkki: 'tölkkiä',
   viipale: 'viipaletta',
-  kappale: 'kappaletta'
+  kappale: 'kappaletta',
+  purkki: 'purkkia'
 } as { [key: string]: string };
 
 export const engNameToSymbol= {
@@ -117,6 +119,7 @@ export const engNameToSymbol= {
   liter: 'lt',
   milligram: 'mg',
   milliliter: 'ml',
+  purkki: 'prk',
   clove: '',
   bag: '',
   box: '',
